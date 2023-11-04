@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 
@@ -8,7 +7,7 @@ import Login from './component/account/login';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{marginTop:50}}>
        <Login/>
     </div>
   );
