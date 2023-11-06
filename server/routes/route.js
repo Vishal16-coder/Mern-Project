@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { loginUser, singupUser, logoutUser } from '../controller/user-controller.js';
+import { singupUser } from '../controller/user-controller.js';
 
 const router = express.Router();
 router.post('/signup', singupUser);
